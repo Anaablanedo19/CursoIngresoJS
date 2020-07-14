@@ -1,6 +1,7 @@
 function mostrar()
 {
 	//tomo la edad  
-	alert("ok");
+	var edad = txtIdEdad.value;
+	
 
 }//FIN DE LA FUNCIÓN
