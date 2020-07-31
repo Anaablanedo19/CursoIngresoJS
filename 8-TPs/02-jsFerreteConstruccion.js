@@ -30,7 +30,7 @@ function Circulo ()
     var radio = txtIdRadio.value;
     var radio = parseInt(radio);
 
-    var perimetro  = radio *  6.28 //(2*3.1416);
+    var perimetro  = 2 * Math.PI * radio;
     var totalalambre = perimetro * 3;
     alert("Se necesita "+totalalambre+" total de alambre.");
 }

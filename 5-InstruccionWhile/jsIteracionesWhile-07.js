@@ -9,10 +9,23 @@ function mostrar()
 	var respuesta;
 	contador=0;
 	acumulador=0;
-	respuesta='si';
+	respuesta= "si";
+	promedio = 0;
 
+	do
+	{
+		contador = prompt("Agregue un numero.");
+		contador = parseInt(contador);
+		acumulador = acumulador + contador;
+
+		promedio++;
+		//promedio = parseInt(promedio);
+
+		respuesta = prompt("Quiere agregar otro numero?");
+
+	} while(respuesta == "si");
 
 	txtIdSuma.value=acumulador;
-	txtIdPromedio.value=acumulador/contador;
+	txtIdPromedio.value=acumulador/promedio;
 
 }//FIN DE LA FUNCIÓN

@@ -12,10 +12,8 @@ function FahrenheitCentigrados ()
     var conversion = (Fahrenheit - 32)* 5/9;
     var conversion = parseInt(conversion);
     
-    alert(Fahrenheit+" grados Fahrenheit son "+conversion+" centrigados.");
+    alert(Fahrenheit+" grados Fahrenheit son "+conversion+" grados centrigados.");
 
-    //Como hacer que redondee para arriba¿?
-    
 }
 
 function CentigradosFahrenheit () 
@@ -28,5 +26,5 @@ function CentigradosFahrenheit ()
     var conversion = (Centígrados* 9/5) + 32;
     var conversion = parseInt(conversion);
     
-    alert(Centígrados+" centígrados son "+conversion+" Fahrenheit.");
+    alert(Centígrados+" centígrados son "+conversion+" grados Fahrenheit.");
 }

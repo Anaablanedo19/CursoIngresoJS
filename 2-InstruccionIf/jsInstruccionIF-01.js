@@ -1,7 +1,16 @@
+
+//Ablanedo Ana
+
 function mostrar()
 {
 	//tomo la edad  
-	var edad = txtIdEdad.value;
-	
+	var edad;
+	edad = txtIdEdad.value;
 
-}//FIN DE LA FUNCIÓN
+	if(edad==15)
+	{
+		 alert("Niña bonita."+edad);
+
+	}
+
+}
